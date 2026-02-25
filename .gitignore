@@ -1,0 +1,7 @@
+# 隱藏 API Key 設定檔
+Secrets.plist
+
+# 隱藏 Xcode 產生的暫存檔 (建議也加上)
+.DS_Store
+DerivedData/
+*.xcuserstate

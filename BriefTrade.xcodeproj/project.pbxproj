@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		F32AE6202F4EA700004B16FC /* GoogleGenerativeAI in Frameworks */ = {isa = PBXBuildFile; productRef = F32AE61F2F4EA700004B16FC /* GoogleGenerativeAI */; };
+		F32AE6242F4EC048004B16FC /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = F32AE6232F4EC048004B16FC /* .gitignore */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		F32AE6012F4EA296004B16FC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +32,7 @@
 		F32AE5F12F4EA294004B16FC /* BriefTrade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BriefTrade.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F32AE6002F4EA296004B16FC /* BriefTradeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BriefTradeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F32AE60A2F4EA296004B16FC /* BriefTradeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BriefTradeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F32AE6232F4EC048004B16FC /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -52,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F32AE6202F4EA700004B16FC /* GoogleGenerativeAI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,7 +85,9 @@
 				F32AE5F32F4EA294004B16FC /* BriefTrade */,
 				F32AE6032F4EA296004B16FC /* BriefTradeTests */,
 				F32AE60D2F4EA296004B16FC /* BriefTradeUITests */,
+				F32AE61E2F4EA700004B16FC /* Frameworks */,
 				F32AE5F22F4EA294004B16FC /* Products */,
+				F32AE6232F4EC048004B16FC /* .gitignore */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,6 +99,13 @@
 				F32AE60A2F4EA296004B16FC /* BriefTradeUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		F32AE61E2F4EA700004B16FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -112,6 +128,7 @@
 			);
 			name = BriefTrade;
 			packageProductDependencies = (
+				F32AE61F2F4EA700004B16FC /* GoogleGenerativeAI */,
 			);
 			productName = BriefTrade;
 			productReference = F32AE5F12F4EA294004B16FC /* BriefTrade.app */;
@@ -195,6 +212,9 @@
 			);
 			mainGroup = F32AE5E82F4EA294004B16FC;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				F32AE61D2F4EA3D7004B16FC /* XCRemoteSwiftPackageReference "generative-ai-swift" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = F32AE5F22F4EA294004B16FC /* Products */;
 			projectDirPath = "";
@@ -212,6 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F32AE6242F4EC048004B16FC /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,7 +412,17 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_APP_SANDBOX = YES;
+				ENABLE_INCOMING_NETWORK_CONNECTIONS = NO;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_BLUETOOTH = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PRINTING = NO;
+				ENABLE_RESOURCE_ACCESS_USB = NO;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -433,7 +464,17 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_APP_SANDBOX = YES;
+				ENABLE_INCOMING_NETWORK_CONNECTIONS = NO;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_BLUETOOTH = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PRINTING = NO;
+				ENABLE_RESOURCE_ACCESS_USB = NO;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -605,6 +646,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F32AE61D2F4EA3D7004B16FC /* XCRemoteSwiftPackageReference "generative-ai-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/generative-ai-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.5.6;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F32AE61F2F4EA700004B16FC /* GoogleGenerativeAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F32AE61D2F4EA3D7004B16FC /* XCRemoteSwiftPackageReference "generative-ai-swift" */;
+			productName = GoogleGenerativeAI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F32AE5E92F4EA294004B16FC /* Project object */;
 }
